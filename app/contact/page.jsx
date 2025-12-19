@@ -213,7 +213,7 @@ export default function ContactPage() {
           <div className="text-center mt-12 animate-on-scroll">
             <p className="text-gray-600 mb-4">Can't find what you're looking for?</p>
             <a
-              href="https://wa.me/919314521343"
+              href="https://wa.me/919024891333"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-block"
@@ -236,14 +236,14 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/919314521343"
+                href="https://wa.me/919024891333"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
               >
                 Chat on WhatsApp
               </a>
-              <a href="tel:+919314521343" className="btn-secondary">
+              <a href="tel:+919024891333" className="btn-secondary">
                 Call Us Now
               </a>
             </div>
