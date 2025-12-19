@@ -1,0 +1,191 @@
+[
+  {
+    "id": "saree-001",
+    "slug": "handblock-printed-cotton-saree-red",
+    "name": "Handblock Printed Cotton Saree - Red",
+    "category": "saree",
+    "subcategory": "cotton",
+    "price": 2499,
+    "images": [
+      "/images/products/saree.jpeg",
+      "/images/products/saree_1.jpeg",
+      "/images/products/saree-001-3.jpg"
+    ],
+    "video": "/videos/saree-001.mp4",
+    "description": "Beautiful handblock printed cotton saree in vibrant red with traditional motifs.",
+    "tags": ["handblock", "cotton", "traditional", "festive"],
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "saree-002",
+    "slug": "silk-saree-royal-blue",
+    "name": "Pure Silk Saree - Royal Blue",
+    "category": "saree",
+    "subcategory": "silk",
+    "price": 4999,
+    "images": [
+    "/images/products/dupatta.jpeg",
+      "/images/products/saree-002-2.jpg"
+    ],
+    "description": "Luxurious pure silk saree with intricate zari work in royal blue.",
+    "tags": ["silk", "luxury", "zari", "wedding"],
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "dupatta-001",
+    "slug": "chiffon-dupatta-pink",
+    "name": "Chiffon Dupatta - Blush Pink",
+    "category": "dupatta",
+    "subcategory": "chiffon",
+    "price": 899,
+    "images": [
+      "/images/products/dupatta.jpeg",
+      "/images/products/dupatta-001-2.jpg"
+    ],
+    "description": "Lightweight chiffon dupatta with delicate embroidery in blush pink.",
+    "tags": ["chiffon", "lightweight", "embroidery", "casual"],
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "dupatta-002",
+    "slug": "cotton-dupatta-floral",
+    "name": "Cotton Dupatta - Floral Print",
+    "category": "dupatta",
+    "subcategory": "cotton",
+    "price": 599,
+    "images": [
+     "/images/products/suit.jpeg"
+    ],
+    "video": "/videos/dupatta.mp4",
+    "description": "Soft cotton dupatta with beautiful floral prints, perfect for everyday wear.",
+    "tags": ["cotton", "floral", "casual", "everyday"],
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "fabric-001",
+    "slug": "plain-greige-cotton-fabric",
+    "name": "Plain Greige Cotton Fabric",
+    "category": "plain-greige-fabric",
+    "subcategory": "cotton",
+    "price": 350,
+    "images": [
+      "/images/products/fabric-001-1.jpg"
+    ],
+    "description": "High-quality plain greige cotton fabric, 44 inches width. Per meter pricing.",
+    "tags": ["greige", "cotton", "wholesale", "bulk"],
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "fabric-002",
+    "slug": "plain-greige-silk-fabric",
+    "name": "Plain Greige Silk Fabric",
+    "category": "plain-greige-fabric",
+    "subcategory": "silk",
+    "price": 850,
+    "images": [
+      "/images/products/fabric-002-1.jpg"
+    ],
+    "description": "Premium plain greige silk fabric for custom printing. 44 inches width.",
+    "tags": ["greige", "silk", "premium", "custom"],
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "dress-001",
+    "slug": "cotton-dress-material-green",
+    "name": "Cotton Dress Material - Olive Green",
+    "category": "dress-material",
+    "subcategory": "cotton",
+    "price": 1299,
+    "images": [
+     "/images/products/suit_2.jpeg",
+      "/images/products/dress-001-2.jpg"
+    ],
+    "description": "Complete dress material set with top, bottom, and dupatta in olive green.",
+    "tags": ["cotton", "unstitched", "complete-set", "casual"],
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "dress-002",
+    "slug": "silk-dress-material-maroon",
+    "name": "Silk Dress Material - Maroon",
+    "category": "dress-material",
+    "subcategory": "silk",
+    "price": 2499,
+    "images": [
+      "/images/products/dress-002-1.jpg"
+    ],
+    "description": "Elegant silk dress material in rich maroon with matching accessories.",
+    "tags": ["silk", "luxury", "festive", "complete-set"],
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "suit-001",
+    "slug": "unstitched-cotton-suit-yellow",
+    "name": "Unstitched Cotton Suit - Mustard Yellow",
+    "category": "unstitched-suit",
+    "subcategory": "cotton",
+    "price": 1799,
+    "images": [
+     "/images/products/suit_5.jpeg",
+      "/images/products/suit-001-2.jpg"
+    ],
+    "video": "/videos/suit-001.mp4",
+    "description": "Vibrant mustard yellow unstitched cotton suit with block print dupatta.",
+    "tags": ["cotton", "unstitched", "blockprint", "festive"],
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "suit-002",
+    "slug": "unstitched-chanderi-suit-ivory",
+    "name": "Unstitched Chanderi Suit - Ivory",
+    "category": "unstitched-suit",
+    "subcategory": "chanderi",
+    "price": 3299,
+    "images": [
+      "/images/products/suit-002-1.jpg"
+    ],
+    "description": "Luxurious chanderi unstitched suit in elegant ivory with gold accents.",
+    "tags": ["chanderi", "luxury", "wedding", "gold"],
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "saree-003",
+    "slug": "georgette-saree-navy",
+    "name": "Georgette Saree - Navy Blue",
+    "category": "saree",
+    "subcategory": "georgette",
+    "price": 1899,
+    "images": [
+      "/images/products/saree-003-1.jpg"
+    ],
+    "description": "Flowing georgette saree in navy blue with subtle shimmer.",
+    "tags": ["georgette", "shimmer", "party", "evening"],
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": "dupatta-003",
+    "slug": "silk-dupatta-teal",
+    "name": "Silk Dupatta - Teal Green",
+    "category": "dupatta",
+    "subcategory": "silk",
+    "price": 1499,
+    "images": [
+      "/images/products/dupatta-003-1.jpg"
+    ],
+    "description": "Rich silk dupatta in teal green with golden border.",
+    "tags": ["silk", "luxury", "golden-border", "festive"],
+    "featured": false,
+    "inStock": true
+  }
+]
