@@ -6,6 +6,13 @@ import Link from 'next/link'
 const HeroCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
 
+  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768)
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    return () => window.removeEventListener('resize', checkMobile)
+  }, [])
   const slides = [
     {
       id: 1,
@@ -14,8 +21,8 @@ const HeroCarousel = () => {
       subtitle: 'Transform Your Vision into Reality',
       description: 'Get your designs printed on premium fabrics. Professional quality, fast turnaround.',
       cta: 'Contact Us Now',
-      ctaLink: 'https://wa.me/919314521343',
-      image: '/images/hero/hero_3.png',
+      ctaLink: 'https://wa.me/919024891333',
+      image: isMobile ? 'images/hero/mhero_1.png' : '/images/hero/hero_3.png' ,
     },
     {
       id: 2,
@@ -25,7 +32,7 @@ const HeroCarousel = () => {
       description: 'Discover our collection of handcrafted sarees in silk, cotton, and georgette.',
       cta: 'Shop Now',
       ctaLink: '/category/saree',
-      image: '/images/hero/hero_4.png',
+      image:isMobile ? 'images/hero/mhero_2.png' : '/images/hero/hero_9.png',
     },
     {
       id: 3,
@@ -35,7 +42,7 @@ const HeroCarousel = () => {
       description: 'Elegant dupattas in chiffon, silk, and cotton with intricate designs.',
       cta: 'Shop Now',
       ctaLink: '/category/dupatta',
-      image: '/images/hero/hero_5.png',
+      image:isMobile ? 'images/hero/mhero_3.png' : '/images/hero/hero_8.png',
     },
     {
       id: 4,
@@ -55,7 +62,7 @@ const HeroCarousel = () => {
       description: 'Complete dress material sets with top, bottom, and dupatta.',
       cta: 'Shop Now',
       ctaLink: '/category/dress-material',
-      image: '/images/hero/hero_1.png',
+      image: '/images/hero/hero_4.png',
     },
     {
       id: 6,
@@ -65,7 +72,7 @@ const HeroCarousel = () => {
       description: 'Premium unstitched suit sets for your custom tailoring.',
       cta: 'Shop Now',
       ctaLink: '/category/unstitched-suit',
-      image: '/images/hero/hero_2.png',
+      image: '/images/hero/hero_7.png',
     },
   ]
 
