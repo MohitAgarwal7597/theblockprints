@@ -139,7 +139,7 @@ const FirstVisitPopup = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/919314521343"
+                href="https://wa.me/919024891333"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={handleClose}
