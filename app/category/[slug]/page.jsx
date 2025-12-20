@@ -5,7 +5,7 @@ import productsData from '../../../data/products.json'
 export function generateStaticParams() {
   // Get unique categories from products
   const categories = [...new Set(productsData.map((p) => p.category))]
-  
+
   return categories.map((category) => ({
     slug: category,
   }))

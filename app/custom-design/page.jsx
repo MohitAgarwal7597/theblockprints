@@ -91,7 +91,7 @@ export default function CustomDesignPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-on-scroll">
               <a
-                href="https://wa.me/919314521343"
+                href="https://wa.me/919024891333"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
@@ -280,12 +280,12 @@ export default function CustomDesignPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/919314521343"
+                href="https://wa.me/919024891333"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
               >
-                WhatsApp: +91 93145 21343
+                WhatsApp: +91 90248 91333
               </a>
               <a
                 href="https://instagram.com/theblockprintsjpr"
